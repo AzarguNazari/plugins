@@ -1,0 +1,67 @@
+.body {
+    margin-top: 10px;
+}
+
+/* colorful bar  */
+.colorgraph {
+    margin-bottom: 5px;
+    height: 7px;
+    border-top: 0;
+    background: #c4e17f;
+    border-radius: 5px;
+    background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+    background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+    background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+    background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
+
+
+/* Tutorial Button colors */
+.tutorialicons .theme-bg{
+    background: #6f5499;
+}
+.tutorialicons .btn {
+    letter-spacing: 1px;
+    text-decoration: none;
+    background: none;
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 0;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+    white-space: nowrap;
+    font-size:14px;
+    line-height:20px;
+    font-weight:700;
+    text-transform:uppercase;
+    border: 3px solid;
+    padding:8px 20px;
+}
+.tutorialicons .btn-outlined {
+    border-radius: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.tutorialicons .btn-outlined.btn-theme {
+    background: none;
+    color: #6f5499;
+    border-color: #6f5499;
+}
+
+.tutorialicons .btn-outlined.btn-theme:hover,
+.tutorialicons .btn-outlined.btn-theme:active {
+    color: #FFF;
+    background: #6f5499;
+    border-color: #6f5499;
+}
+.tutorialicons .btn-lg{
+    font-size:18px;
+    line-height:22px;
+    border: 4px solid;
+    padding:13px 40px;
+}
