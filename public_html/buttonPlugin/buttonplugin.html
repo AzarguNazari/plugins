@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link  href="http://fonts.googleapis.com/css?family=Cabin:400,500,600,bold" rel="stylesheet" type="text/css" >
+        <link  href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:regular,bold" rel="stylesheet" type="text/css" >
+        <link rel="stylesheet" href="css/buttonplugin.css">
+    </head>
+    <body>
+        
+            <a href="" id="something">
+                Somethig here
+            </a>
+        
+        <a href="" id="bitch">This is for bitches</a>
+        
+        <a href="" id="circle">circle is somethign that words better</a>
+        
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="js/buttonplugin.js"></script>
+        
+        <script>
+            $(document).ready(function(){
+                $("#something").fashionButton({type : "cool"});
+                $("#bitch").fashionButton({type : "bitch"});
+                $("#circle").fashionButton({type : "round", color : "red"});
+            });
+            
+        </script>
+    </body>
+</html>

@@ -1,0 +1,4 @@
+{
+    "animals" : [{"name" : "Doggy", "address" : "http://www.cutestpaw.com/wp-content/uploads/2012/06/The-Puggy-Face.jpg", "caption" : "You can't find such puppy again"},
+	{"name" : "Catty", "address" : "http://www.rd.com/wp-content/uploads/sites/2/2016/02/06-train-cat-shake-hands.jpg", "caption" : "Hello everyone this is catty"}]
+}
